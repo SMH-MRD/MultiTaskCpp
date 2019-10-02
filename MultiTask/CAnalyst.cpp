@@ -4,8 +4,7 @@
 
 CAnalyst::CAnalyst()
 {
-
-}
+	}
 
 
 CAnalyst::~CAnalyst()
