@@ -4,6 +4,7 @@
 
 CAnalyst::CAnalyst()
 {
+
 }
 
 
