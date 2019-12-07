@@ -5,11 +5,11 @@
 extern vector<void*>	VectpCTaskObj;	//タスクオブジェクトのポインタ
 extern ST_iTask g_itask;
 
-class CComPartner :
+class CComDevice :
 	public CTaskObj
 {
 public:
-	CComPartner();
-	~CComPartner();
+	CComDevice();
+	~CComDevice();
 };
 

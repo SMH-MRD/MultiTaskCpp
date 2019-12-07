@@ -157,7 +157,7 @@
     <ClInclude Include="CAnalyst.h" />
     <ClInclude Include="CClerk.h" />
     <ClInclude Include="CComClient.h" />
-    <ClInclude Include="CComPartner.h" />
+    <ClInclude Include="CComDevice.h" />
     <ClInclude Include="CodeDef.h" />
     <ClInclude Include="CommonFormat.h" />
     <ClInclude Include="CPlayer.h" />
@@ -175,7 +175,7 @@
     <ClCompile Include="CAnalyst.cpp" />
     <ClCompile Include="CClerk.cpp" />
     <ClCompile Include="CComClient.cpp" />
-    <ClCompile Include="CComPartner.cpp" />
+    <ClCompile Include="CComDevice.cpp" />
     <ClCompile Include="CPlayer.cpp" />
     <ClCompile Include="CManager.cpp" />
     <ClCompile Include="CPublicRelation.cpp" />
@@ -201,7 +201,10 @@
     <Image Include="bmp\comm3.bmp" />
     <Image Include="bmp\entoma.bmp" />
     <Image Include="bmp\lupu.bmp" />
+    <Image Include="bmp\man1.bmp" />
     <Image Include="bmp\man2.bmp" />
+    <Image Include="bmp\Ply1.bmp" />
+    <Image Include="bmp\ply2.bmp" />
     <Image Include="bmp\pr1.bmp" />
     <Image Include="bmp\rimuru.bmp" />
     <Image Include="bmp\yu.bmp" />

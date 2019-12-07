@@ -56,25 +56,7 @@ unsigned CTaskObj::run(void *param) {
 
 void CTaskObj::routine_work(void *param) {
 
-	JOYINFOEX JoyInfoEx;
-	JoyInfoEx.dwSize = sizeof(JOYINFOEX);
-	JoyInfoEx.dwFlags = JOY_RETURNALL;
-#if 0
-	for (unsigned int i = 0; i<joyGetNumDevs(); i++) {//サポートされているジョイスティックの数を返す
-		if (JOYERR_NOERROR == joyGetPosEx(i, &JoyInfoEx))
-			ws<<"Joy Stick No." << i << "Connected";
-			tweet2owner(ws.str()); ws.str(L""); ws.clear();
-	}
-	Sleep(1000);
-#endif
-	if (JOYERR_NOERROR == joyGetPosEx(0, &JoyInfoEx)) { //0番のジョイスティックの情報を見る
-		ws << "dwXpos = " << JoyInfoEx.dwXpos << "  dwYpos = " << JoyInfoEx.dwYpos << "  dwButton = " << JoyInfoEx.dwButtons;
-	}
-	else {
-		ws << "Error";
-	}
-
-	//ws << inf.sname << L" working!"<< *(inf.psys_counter);
+	ws << inf.sname << L" working!"<< *(inf.psys_counter);
 	tweet2owner(ws.str()); ws.str(L"") ; ws.clear();
 
 	//wstring wstr = L"ZZZ";
